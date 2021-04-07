@@ -1,0 +1,97 @@
+.home_image {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    filter: brightness(70%);
+}
+
+.home {
+    color: white;
+}
+
+.home_text {
+    padding: 20px;
+    
+}
+
+.home_text h1 {
+    text-align: center;
+}
+
+.under {
+    color: yellow;
+    font-size: 180%;
+}
+
+.launchpads h3 {
+    font-size: 350%;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.retired {
+    color: rgba(255,0,0);
+    font-size: 180%;
+}
+
+.launches {
+    display: flex;
+    margin: 20px;
+    
+}
+
+.active {
+    color: lightgreen;
+    font-size: 180%;
+}
+
+.launchpads p {
+    margin: 20px;
+}
+
+.launch_button {
+    color: orange;
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px;
+    font-size: 150%;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.launches p {
+    color: aqua;
+}
+
+.launch_button:hover {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange
+}
+
+.home h1 {
+    font-size: 400%;
+    font-weight: 300;
+    text-align: center;
+    /* position: fixed; */
+}
+
+.launchpads {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40%;
+    transform: translateY(10%) translateX(10%);
+    scroll-snap-type: x mandatory;
+}
+
+.launchpads ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.pads {
+    display: table;
+    width: 100vw;
+}

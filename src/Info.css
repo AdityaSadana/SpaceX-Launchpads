@@ -1,0 +1,52 @@
+.info_text {
+    color: white;
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    height: 100%;
+    max-width: 600px;
+}
+
+.info_text p {
+    margin-top: 5%;
+}
+
+.reuses {
+    display: flex;
+    color: lightgreen;
+}
+
+.noreuses {
+    margin-top: 10px;
+    color: rgba(255,50,100);
+}
+
+.reuses p {
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+button {
+    color: orange;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 100%;
+    margin: 50px;
+    border: 1px solid white;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.date {
+    color: lightskyblue;
+}
+
+.info_text h1 {
+    font-size: max(5vw,250%);
+    font-weight: 400;
+}
